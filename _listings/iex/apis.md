@@ -3,19 +3,19 @@ name: IEX
 x-slug: iex
 description: IEX, the Investors Exchange, is a fair, simple and transparent stock
   exchange dedicated to investor and issuer protection.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IEX-Logo.png
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
 x-kinRank: "9"
-x-alexaRank: "225220"
+x-alexaRank: "166667"
 tags: Daily
-created: "2018-06-18"
-modified: "2018-06-18"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/iex/apis.md
 specificationVersion: "0.14"
 apis:
 - name: IEX Trading API Corporate Actions
   x-api-slug: iex-trading-api
   description: Refer to the Daily list specification for futher details.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IEX-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
   humanURL: https://iextrading.com
   baseURL: https://api.iextrading.com//1.0//ref-data/daily-list/symbol-directory
   tags: Market Data,Daily List
@@ -25,7 +25,7 @@ apis:
 - name: IEX Trading API Next Day Ex Date
   x-api-slug: iex-trading-api
   description: Refer to the Daily list specification for futher details.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IEX-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
   humanURL: https://iextrading.com
   baseURL: https://api.iextrading.com//1.0//ref-data/daily-list/next-day-ex-date
   tags: Market Data,Daily List
@@ -36,7 +36,7 @@ apis:
   x-api-slug: iex-trading-api
   description: IEX, the Investors Exchange, is a fair, simple and transparent stock
     exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IEX-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
   humanURL: https://iextrading.com
   baseURL: https://api.iextrading.com//1.0
   tags: Daily
