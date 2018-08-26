@@ -6,34 +6,30 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth
 x-kinRank: "9"
 x-alexaRank: "4820"
 tags: Daily
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/auth0/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Auth0 Stats API Get Daily Stats
-  x-api-slug: auth0-stats-api
+- name: Auth0 Stats API - Get Daily Stats
+  x-api-slug: apiv2statsdaily-get
   description: Gets the daily stats for a particular period.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
   humanURL: https://auth0.com/
-  baseURL: https://login.auth0.com//stats//api/v2/stats/daily
-  tags: Stats,Daily
+  baseURL: https://login.auth0.com//stats
+  tags: Authentication, OAuth, Target, Service Level Agreement, Stack Network, Technology,
+    SaaS, Enterprise, API Service Provider, Identities, Profiles, Relative Data, Service
+    API, Authentication, Users
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/auth0/apiv2statsdaily-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/auth0/apiv2statsdaily-get-openapi.md
-- name: Auth0 Stats API
-  x-api-slug: auth0-stats-api
-  description: The new way to solve Identity
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
-  humanURL: https://auth0.com/
-  baseURL: https://login.auth0.com//stats
-  tags: Daily
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/auth0/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://attom.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://auth0.stack.network
 - type: x-blog
   url: https://auth0.com/blog/
 - type: x-blog-rss

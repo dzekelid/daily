@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telap
 x-kinRank: "9"
 x-alexaRank: "1071695"
 tags: Daily
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/telapi/apis.md
 specificationVersion: "0.14"
 apis:
-- name: hetras Hotel API Version 0 Get the setup of the daily rates for a specific
+- name: hetras Hotel API Version 0 - Get the setup of the daily rates for a specific
     rateplan and a defined timeperiod.
-  x-api-slug: hetras-hotel-api-version-0
+  x-api-slug: apihotelv0hotelshotelidrateplansrateplancoderates-get
   description: "With this call you can read the daily rates setup including the cancellation
     policy and minimum guarantee per day for the\r\n            specified rateplan.
     You can specify a timeperiod to read the daily rates for. The rateplan needs to
@@ -22,53 +22,49 @@ apis:
     and have rates loaded."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
   humanURL: http://www.telapi.com
-  baseURL: https://api.hetras-certification.net////api/hotel/v0/hotels/{hotelId}/rateplans/{rateplanCode}/rates
-  tags: Setup,Of,Daily,Ratesa,Specific,Rateplan,Defined,Timeperiod
+  baseURL: https://api.hetras-certification.net//
+  tags: SMS, Voice, Voice, Target, Stack Network, Technology, SaaS, Mobile, Telecommunications,
+    SMS, Telecommunications, Messages, Messages, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/telapi/apihotelv0hotelshotelidrateplansrateplancoderates-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/telapi/apihotelv0hotelshotelidrateplansrateplancoderates-get-openapi.md
-- name: hetras Hotel API Version 0 Get the count of all active and loaded daily rates
-    for the defined rateplan in a specified time period.
-  x-api-slug: hetras-hotel-api-version-0
+- name: hetras Hotel API Version 0 - Get the count of all active and loaded daily
+    rates for the defined rateplan in a specified time period.
+  x-api-slug: apihotelv0hotelshotelidrateplansrateplancoderatescount-get
   description: Get the count of all active and loaded daily rates for the defined
     rateplan in a specified time period..
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
   humanURL: http://www.telapi.com
-  baseURL: https://api.hetras-certification.net////api/hotel/v0/hotels/{hotelId}/rateplans/{rateplanCode}/rates/$count
-  tags: Count,Of,,Active,Loaded,Daily,Ratesthe,Defined,Rateplan,In,Specified,Time,Period
+  baseURL: https://api.hetras-certification.net//
+  tags: SMS, Voice, Voice, Target, Stack Network, Technology, SaaS, Mobile, Telecommunications,
+    SMS, Telecommunications, Messages, Messages, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/telapi/apihotelv0hotelshotelidrateplansrateplancoderatescount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/telapi/apihotelv0hotelshotelidrateplansrateplancoderatescount-get-openapi.md
-- name: hetras Hotel API Version 0 Get the setup of a daily rate for a specific business
-    day and rateplan.
-  x-api-slug: hetras-hotel-api-version-0
+- name: hetras Hotel API Version 0 - Get the setup of a daily rate for a specific
+    business day and rateplan.
+  x-api-slug: apihotelv0hotelshotelidrateplansrateplancoderatesbusinessday-get
   description: Read the setup of the daily rate for the defined rateplan for that
     specific business day.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
   humanURL: http://www.telapi.com
-  baseURL: https://api.hetras-certification.net////api/hotel/v0/hotels/{hotelId}/rateplans/{rateplanCode}/rates/{businessDay}
-  tags: Setup,Of,Daily,Ratea,Specific,Business,Day,Rateplan
+  baseURL: https://api.hetras-certification.net//
+  tags: SMS, Voice, Voice, Target, Stack Network, Technology, SaaS, Mobile, Telecommunications,
+    SMS, Telecommunications, Messages, Messages, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/telapi/apihotelv0hotelshotelidrateplansrateplancoderatesbusinessday-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/telapi/apihotelv0hotelshotelidrateplansrateplancoderatesbusinessday-get-openapi.md
-- name: hetras Hotel API Version 0
-  x-api-slug: hetras-hotel-api-version-0
-  description: Zang offers business communications tools & voice app development platforms
-    that bring innovation and ease to unified communications & collaboration solutions.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
-  humanURL: http://www.telapi.com
-  baseURL: https://api.hetras-certification.net//
-  tags: Daily
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/telapi/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://taxamo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://telapi.stack.network
 - type: x-base
   url: https://api.telapi.com
 - type: x-blog
