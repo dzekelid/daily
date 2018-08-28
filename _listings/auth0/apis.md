@@ -6,11 +6,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth
 x-kinRank: "9"
 x-alexaRank: "4820"
 tags: Daily
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/auth0/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Auth0 API - Get Stats Daily
+  x-api-slug: statsdaily-get
+  description: Get stats daily.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
+  humanURL: https://auth0.com/
+  baseURL: https://login.auth0.com/api/v2/
+  tags: Authentication, OAuth, Target, Service Level Agreement, Stack Network, Technology,
+    SaaS, Enterprise, API Service Provider, Identities, Profiles, Relative Data, Service
+    API, Authentication, Users
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/auth0/statsdaily-get-openapi.md
 - name: Auth0 Stats API - Get Daily Stats
   x-api-slug: apiv2statsdaily-get
   description: Gets the daily stats for a particular period.

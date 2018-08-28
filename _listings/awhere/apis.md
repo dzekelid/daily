@@ -7,11 +7,34 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21116-deve
 x-kinRank: "7"
 x-alexaRank: "891345"
 tags: Daily
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/awhere/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: aWhere API Platform - Daily Observations
+  x-api-slug: v2weatherfieldsfield1observations-get
+  description: "####Request\nThis API call gets the weather at a field location.\n\nThe
+    default URL will get the last seven days of actual weather observations. You can
+    add dates to the end of the URL to get the weather for a specific range of days,
+    like so: \n\n`/v2/weather/fields/field1/observations/2015-08-01` gets a single
+    day\n`/v2/weather/fields/field1/observations/2015-08-01,2015-08-15` gets everything
+    from August 1-15\n\nYou can customize the response payload using query string
+    parameters. Learn more in the [Daily Observations Documentation](http://developer.awhere.com/api/reference/weather/observations).\n\n_Tip:
+    Remember to use a field ID that exists in your account. By default, this collection
+    uses a default field ID of 'field1'_\n\n\n####Security\nThis API call uses the
+    security Access Token that is retrieved with the \"Get a Token\" request. If you
+    run that request first, it will save a token to Postman and this API will use
+    it automatically. You can also see where the token should normally go by clicking
+    the \"Headers\" tab below. The Authorization header holds the token, replacing
+    the \"{{aWhereAccessToken}}\" part."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21116-developer-awhere-com.jpg
+  humanURL: http://developer.awhere.com/
+  baseURL: https://api.awhere.com//
+  tags: SaaS, Enterprise, Agriculture, Technology, General Data, Profiles
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/awhere/v2weatherfieldsfield1observations-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: http://blog.awhere.com/rss.xml

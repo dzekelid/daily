@@ -15,6 +15,25 @@ produces:
 consumes:
 - application/json
 paths:
+  /stats/daily:
+    get:
+      summary: Get Stats Daily
+      description: Get stats daily.
+      operationId: getStatsDaily
+      x-api-path-slug: statsdaily-get
+      parameters:
+      - in: query
+        name: from
+        description: The first day of the period (inclusive) in YYYYMMDD format
+      - in: query
+        name: to
+        description: The last day of the period (inclusive) in YYYYMMDD format
+      responses:
+        200:
+          description: OK
+      tags:
+      - Statistics
+      - Daily
   /api/v2/stats/daily:
     get:
       summary: Get Daily Stats

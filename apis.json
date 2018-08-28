@@ -1,0 +1,166 @@
+{
+	"name": "Streadata.io API Gallery - Daily",
+	"description": "This is a repository of daily APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/daily.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://daily.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Daily",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TelAPI",
+			"x-api-slug": "telapi",
+			"description": "Zang offers business communications tools & voice app development platforms that bring innovation and ease to unified communications & collaboration solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg",
+			"humanURL": "http://www.telapi.com",
+			"baseURL": "http://api.telapi.com/v2/",
+			"tags": "Daily",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/telapi/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Auth0",
+			"x-api-slug": "auth0",
+			"description": "The new way to solve Identity",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg",
+			"humanURL": "https://auth0.com/",
+			"baseURL": "https://login.auth0.com//users",
+			"tags": "Daily",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/auth0/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "aWhere",
+			"x-api-slug": "awhere",
+			"description": "aWhere Ag Data Management harnesses agriculture analytics to create unprecedented visibility and insight from farm level to national policy. Learn more at aWhere.com!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21116-developer-awhere-com.jpg",
+			"humanURL": "http://developer.awhere.com/",
+			"baseURL": "https://api.awhere.com//",
+			"tags": "Daily",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/awhere/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Alpha Vantage",
+			"x-api-slug": "alpha-vantage",
+			"description": "Composed of a tight-knit community of researchers, engineers, and business professionals, Alpha Vantage Inc. is a leading provider of free APIs for realtime and historical data on stocks, physical currencies, and digital/crypto currencies. Our success is driven by rigorous research, cutting edge technology, and a disciplined focus on democratizing access to data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2018-01-22 at 4.52.35 PM.png",
+			"humanURL": "https://www.alphavantage.co",
+			"baseURL": "https://www.alphavantage.co//",
+			"tags": "Daily",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/alpha-vantage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Weatherbit.io",
+			"x-api-slug": "weatherbit-io",
+			"description": "Our Weather API is the most powerful Weather data API on the web. Sign up for our free Weather API, and upgrade as your weather data needs grow!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weatherbit.jpg",
+			"humanURL": "http://weatherbit.io",
+			"baseURL": "https://api.weatherbit.io//v2.0",
+			"tags": "Daily",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/weatherbit-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ClimaCell",
+			"x-api-slug": "climacell",
+			"description": "ClimaCell provides the most accurate weather data in the world by integrating proprietary data extracted from wireless networks and other new sensing technologies with data from traditional sensors. With 90% correlation to ground truth (vs. 50% using radar), it&rsquo;s the best you can get for your enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg",
+			"humanURL": "https://www.climacell.co",
+			"baseURL": "https://api2.climacell.co//v2",
+			"tags": "Daily",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/climacell/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "WebTRIS",
+			"x-api-slug": "webtris",
+			"description": "The WebTRIS data available at http://webtris.highwaysengland.co.uk/ is available via an application programming interface (API) in JSON format. This is a free service and there is no need to register to use it. Developers can utilise the WebTRIS data to provide their own services, applications and websites.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/webtris-traffic-flow-api.png",
+			"humanURL": "http://webtris.highwaysengland.co.uk/",
+			"baseURL": "https://webtris.highwaysengland.co.uk//api",
+			"tags": "Daily",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/webtris/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Daily",
+	"include": [
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "TelAPI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/telapi/apis.yaml"
+		},
+		{
+			"name": "Auth0",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/auth0/apis.yaml"
+		},
+		{
+			"name": "aWhere",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/awhere/apis.yaml"
+		},
+		{
+			"name": "Alpha Vantage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/alpha-vantage/apis.yaml"
+		},
+		{
+			"name": "Weatherbit.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/weatherbit-io/apis.yaml"
+		},
+		{
+			"name": "ClimaCell",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/climacell/apis.yaml"
+		},
+		{
+			"name": "WebTRIS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/webtris/apis.yaml"
+		}
+	]
+}

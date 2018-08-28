@@ -9,11 +9,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-clim
 x-kinRank: "9"
 x-alexaRank: "617213"
 tags: Daily
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/climacell/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: ClimaCell API - Post Daily
+  x-api-slug: daily-post
+  description: |-
+    ### Daily (Coming Soon)
+    The ```???daily???``` API call provides the daily forecast with weather parameter summaries for the next 16 ???days???. The weather data includes daily minimum and maximum values for temperature, feels-like, dew point, pressure, humidity, and visibility, along with accumulated precipitation, list of precipitation types and wind information.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg
+  humanURL: https://www.climacell.co
+  baseURL: https://api2.climacell.co//v2
+  tags: Weather, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/daily/master/_listings/climacell/daily-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://clickatell.api.gallery.streamdata.io
